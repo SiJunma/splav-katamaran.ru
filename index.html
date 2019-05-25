@@ -1,0 +1,2006 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Required meta tags -->
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <title>Катамаран-Урал. Организация сплавов</title>
+    <meta name="description" content="Организовываем группы для сплавов по рекам Урала, соберите свою или присоединяйтесь к существующей!">
+    <meta name="keywords" content="Катамаран, сплав, Урал, река, поход, баня, семейный, корпоративный, активный, отдых">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- FAVICON -->
+    <link rel="icon" href="http://splav-katamaran.ru
+    /img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="http://splav-katamaran.ru/img/favicon.png" type="image/x-icon">
+    <!-- OG Tags -->
+    <meta property="og:title" content="Сплавы по рекам Урала на катамаранах">
+    <meta property="og:description" content="Организовываем группы для сплавов по рекам Урала, соберите свою или присоединяйтесь к существующей!">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="http://splav-katamaran.ru/img/ogimage.jpg">
+    <meta property="og:site_name" content="Сплавы по Уралу на катамаранах">
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    
+     <link rel="stylesheet" href="modalform/libs/remodal/remodal.css">
+    <link rel="stylesheet" href="modalform/libs/remodal/remodal-default-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+<body>
+<!-- Бургер-меню -->
+    <div id="burger">
+        <button class="hamburger">
+            <div class="toggle-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </button>
+        <button class="cross" style="display: none;">&#735;</button>
+                                
+    </div>
+<!-- Конец бургер-меню -->
+    <header class="wow fadeIn" data-wow-offset="0">
+        <div class="line wow fadeIn" data-wow-offset="0">
+        <div class="container">
+            <nav>
+                
+                    <div class="row">
+                        <div class="col-lg-5 col-xl-5">
+                            <div class="header__menu">
+                                <ul class="menu-list">
+                                    <li class="menu-hide">Добро пожаловать!</li>
+                                    <li><a class="go_to" href="#route">Маршруты</a></li>
+                                    <li><a class="go_to" href="#mediagallery">Галерея</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-3 col-xl-2">
+                            <div class="logo">
+                                Активный отдых
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-5">
+                            <div class="header__menu text-left">
+                                <ul class="menu-list menu-right">
+                                    <li class="menu-left-mrg"><a class="go_to" href="#timeTable">Расписание</a></li>
+                                    <li><a class="go_to" href="#cost">Стоимость</a></li>
+                                    <li><a class="go_to" href="#contacts">Контакты</a></li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </div>
+                
+                </nav>
+            
+           <div class="row">
+               <div class="col-md-12">
+                   <h1>Сплавы по рекам</h1>
+                   <div class="h1-description">Организация и проведение сплавов по рекам Урала</div>
+               </div>
+           </div>
+        </div>
+        </div>
+        <div class="menu" style="display: none;">
+        <ul>
+            <a class="go_to" href="#route"><li>Маршруты</li></a>
+            <a class="go_to" href="#mediagallery"><li>Галерея</li></a>
+            <a class="go_to" href="#timeTable"><li>Расписание</li></a>
+            <a class="go_to" href="#cost"><li>Стоимость</li></a>
+            <a class="go_to" href="#contacts"><li>Контакты</li></a>
+        </ul>
+    </div>
+    </header>
+    
+
+    <section id="header-form" class="wow fadeIn" data-wow-offset="0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-9 header-no-padding">
+                    <div class="header-form">
+                        <form id="firstForm" autocomplete="off">
+                            <p class="msgs text-center"></p>
+                            <div class="flex-container">
+                                <fieldset class="form-fieldset">
+                                    <label>
+                                        <span class="input-title">
+                                        Ваше имя
+                                        </span>
+                                    <input id="form-name" name="uname" type="text" required tabindex="0" placeholder="Имя">
+                                    </label>
+                                </fieldset>
+                            <fieldset class="form-fieldset">
+                                <label>
+                                    <span class="input-title">
+                                        На какую реку вы хотите?
+                                    </span>
+                                    <div class="form-select">
+                                        <select id="form-river" name="river" required>
+                                        <option disabled selected>Выберите реку</option>
+                                        <option value="Белая">Белая</option>
+                                        <option value="Чусовая">Чусовая</option>
+                                        <option value="Исеть">Исеть</option>
+                                        <option value="Сосьва">Сосьва</option>
+                                        <option value="Ай">Ай</option>
+                                        <option value="Большая Сатка">Большая Сатка</option>
+                                        <option value="Юрузань">Юрузань</option>
+                                        <option value="Зилим">Зилим</option>
+                                        <option value="Нейва">Нейва</option>
+                                        <option value="Реж">Реж</option>
+                                        <option value="Серьга">Серьга</option>
+                                        </select>
+                                    </div>
+                                </label>
+                            </fieldset>
+                            <fieldset class="form-fieldset">
+                                <label>
+                                    <span class="input-title">
+                                        День сплава
+                                    </span>
+                                    <input id="form-people" type="text" name="people"  placeholder="Дата">
+                                </label>
+                            </fieldset>
+                            <fieldset class="form-fieldset">
+                                <label>
+                                    <span class="input-title">
+                                        Ваш телефон
+                                    </span>
+                                    <input id="form-phone" name="uphone" type="tel" tabindex="0" required pattern="^[ 0-9]+$" placeholder="Телефон">
+                                </label>
+                            </fieldset>
+                            <div class="form-fieldset">
+                                <button class="btn formBtn header-btn" type="submit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="18" height="18" viewBox="0 0 18 18">
+
+                                    <path id="zoom" fill="#fff" d="M17.762,17.520 C17.002,18.080 15.817,18.231 15.232,17.520 L10.641,12.688 C10.265,12.232 10.189,11.647 10.382,11.138 C9.203,11.773 7.848,12.037 6.482,11.885 C4.803,11.699 3.312,10.907 2.282,9.659 C1.252,8.412 0.805,6.854 1.023,5.272 C1.241,3.689 2.099,2.273 3.438,1.289 C6.204,-0.747 10.186,-0.304 12.315,2.276 C14.246,4.618 13.996,7.929 11.865,10.042 C12.437,9.988 12.310,9.147 13.399,10.657 C14.487,12.166 19.021,16.597 17.762,17.520 ZM11.673,6.454 C11.826,5.350 11.514,4.264 10.796,3.395 C9.313,1.595 6.535,1.287 4.606,2.705 C2.677,4.126 2.315,6.743 3.799,8.541 C5.283,10.341 8.059,10.649 9.989,9.231 C10.923,8.542 11.521,7.558 11.673,6.454 Z"/>
+                                    </svg>  Найти группу</button>
+                            </div>
+                            </div>
+                            <input name="formInfo2" class="formInfo" type="hidden" value="Форма с первого экрана"/>
+                        </form>
+                        <div class="form-warning">Заполняя форму, вы соглашаетесь с политикой обработки данных</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="advantage" class="box-shadow">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="paragraf-section">
+                        <h2>Стараемся для вас с 2009 года</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="fadeInUp wow" data-wow-offset="10">
+                <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="advantage no-margin-top advantage-top">
+                        <div class="advantage__img car">
+                            <img src="img/car.svg" alt="">
+                        </div>
+                        <div class="advantage-description">
+                            Удобная доставка на сплав микроавтобусом или машиной
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                   <div class="advantage no-margin-top">
+                        <div class="advantage__img">
+                            <img src="img/star.svg" alt="">
+                        </div>
+                        <div class="advantage-description">
+                            В нашей команде только опытные инструкторы и аниматоры
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="advantage">
+                        <div class="advantage__img">
+                            <img src="img/boat.svg" alt="">
+                        </div>
+                        <div class="advantage-description">
+                            Современное оборудование и новые проверенные катамараны 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                   <div class="advantage">
+                        <div class="advantage__img">
+                            <img src="img/bath.svg" alt="">
+                        </div>
+                        <div class="advantage-description">
+                            Интерактив, питание и баня включены в программу маршрута
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="route">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="paragraf-section">
+                        <h2>Наши маршруты</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="slider tabs fadeInUp wow" data-wow-offset="10">
+                        <div class="slider__item tab">
+                            <a class="route-links active" href="#river1">
+                                <div class="slider-item__img">
+                                    <div class="img-overlay">
+                                        <img src="img/river1.jpg" alt="">
+                                    </div>
+                                    <h6>Река Реж</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slider__item tab">
+                            <a class="route-links" href="#river2">
+                                <div class="slider-item__img">
+                                    <div class="img-overlay">
+                                        <img src="img/river2.jpg" alt="">
+                                    </div>
+                                    <h6>Река Чусовая</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slider__item tab">
+                                <a  class="route-links"  href="#river3">
+                                    <div class="slider-item__img">
+                                        <div class="img-overlay">
+                                            <img src="img/river3.jpg" alt="">
+                                        </div>
+                                        <h6>Река Серьга</h6>
+                                    </div>
+                                </a>
+                        </div>
+                        <div class="slider__item tab">
+                                <a class="route-links" href="#river4">
+                                    <div class="slider-item__img">
+                                        <div class="img-overlay">
+                                            <img src="img/river4.jpg" alt="">
+                                        </div>
+                                        <h6>Река Усьва</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider__item tab">
+                                <a class="route-links" href="#river5">
+                                    <div class="slider-item__img">
+                                        <div class="img-overlay">
+                                            <img src="img/river5.jpg" alt="">
+                                        </div>
+                                        <h6>Большая Сатка</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider__item tab">
+                                <a class="route-links" href="#river6">
+                                    <div class="slider-item__img">
+                                        <div class="img-overlay">
+                                            <img src="img/river6.jpg" alt="">
+                                        </div>
+                                        <h6>Река Ай</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider__item tab">
+                                <a class="route-links" href="#river7">
+                                    <div class="slider-item__img">
+                                        <div class="img-overlay">
+                                            <img src="img/river7.jpg" alt="">
+                                        </div>
+                                        <h6>Река Нейва</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider__item tab">
+                                <a class="route-links" href="#river8">
+                                    <div class="slider-item__img">
+                                        <div class="img-overlay">
+                                            <img src="img/river8.jpg" alt="">
+                                        </div>
+                                        <h6>Река Юрузань</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider__item tab">
+                                <a class="route-links" href="#river9">
+                                    <div class="slider-item__img">
+                                        <div class="img-overlay">
+                                            <img src="img/river9.jpg" alt="">
+                                        </div>
+                                        <h6>Река Исеть</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider__item tab">
+                                <a class="route-links" href="#river10">
+                                    <div class="slider-item__img">
+                                        <div class="img-overlay">
+                                            <img src="img/river10.jpg" alt="">
+                                        </div>
+                                        <h6>Река Зилим</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider__item tab">
+                                <a class="route-links" href="#river11">
+                                    <div class="slider-item__img">
+                                        <div class="img-overlay">
+                                            <img src="img/river11.jpg" alt="">
+                                        </div>
+                                        <h6>Корпоративная программа</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider__item tab">
+                                <a class="route-links" href="#river12">
+                                    <div class="slider-item__img">
+                                        <div class="img-overlay">
+                                            <img src="img/river12.jpg" alt="">
+                                        </div>
+                                        <h6>Сборные группы</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        </div>
+
+                </div>
+            
+
+       
+                    <div class="tabs-content" >
+                <div id="river1">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Река Реж</h3>
+                            <img src="img/river1big.jpg" alt="Река Реж">
+                            <div class="details__description">
+                                Замечательное место для сплавов с мая по август.
+                                Красивейшая уральская природа, извилистая река и высокие скалы писаницы по берегам (на реке более 60 скал – бойцов) манят любителей сплавиться со всей страны. Течение реки спокойное, но много перекатов и поворотов. Красивые виды по всему маршруту: старые церкви, заброшенные детские лагеря, подвесные мосты и небольшие пещеры. Все, что хочется увидеть – в одном месте, на одной реке.<p>
+
+                                Первая ночевка проходит на базе отдыха в селе Ощепково. Там можно попариться в бане и поучаствовать в интерактивной программе или просто отдохнуть после тяжелого дня. 
+                                <div class="routs">
+                                    <div class="routs-title">
+                                        Доступны маршруты:
+                                    </div>
+                                    <div class="routs__one">
+                                        ЕКБ(100) с.Першино – с. Мироново, 2 дня 
+                                    </div>
+                                    <div class="routs__two">
+                                        с. Голендухино – с. Арамашево, 3 дня
+                                    </div>
+                                    <p class="routs__type">Этот маршрут доступен для сборных групп.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn jackInTheBox wow" data-wow-offset="10">
+                            <a class="btn rout-btn" title="Запись на Реж" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Программа на 2 дня</h5>
+                            <div class="rout-day fadeInRight wow" data-wow-offset="10">
+                                
+                                <div class="program-day__title">
+                                    Первый день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:00</span>Встреча в Першино, завтрак.</li>
+                                        <li><span>10:00</span>Инструктаж. Начало сплава</li>
+                                        <li><span>14:00</span>Привал на обед</li>
+                                        <li><span>15:00</span>Продолжение сплава, скалы писаницы</li>
+                                        <li><span>18:00</span>с. Ощепково, ужин, баня, конкурсы</li>
+                                        <li><span>22:00</span>Ночь на базе</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day fadeInRight wow" data-wow-offset="10">
+                                <div class="program-day__title">
+                                    Второй день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>11:00</span>Продолжение сплава</li>
+                                        <li><span>14:00</span>Привал на обед</li>
+                                        <li><span>15:00</span>Продолжение сплава до с. Мироново</li>
+                                        <li><span>18:00</span>Отъезд домой</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div> 
+                    </div>
+                    <div class="tab-route-btn none jackInTheBox wow" data-wow-offset="10">
+                        <a class="btn rout-btn" title="Запись на Реж" data-remodal-target="formCall">Записаться в группу</a>
+                    </div>
+                </div> 
+            </div>
+            <div id="river2">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Река Чусовая</h3>
+                            <img src="img/river2big.jpg" alt="Река Чусовая">
+                            <div class="details__description">
+                                Сплав по реке Чусовая без преувеличений можно назвать одним из самых живописных сплавных маршрутов на Урале. На реке множество древних сел и деревень, по берегам возвышаются скалы, уходят вдаль поля и луга.<p>
+
+                                Живописный союз известняковых утесов простирается вдоль реки. Максимальная высота скал - 73 метра. Сразу под утесом располагается пойменная терраса, по которой большую часть года можно взобраться на эти достойные кисти мастера скалы. 
+                                <div class="routs">
+                                    <div class="routs-title">
+                                        Доступны маршруты:
+                                    </div>
+                                    <div class="routs__one">
+                                        77-слобода<p>
+                                        ЕКБ(96) д.Трёка – пос.Староуткинска, 31км - 2дня
+                                    </div>
+                                    <div class="routs__two">
+                                        д.Трёка – с. Арамашево, 52км - 3дня
+                                    </div>
+                                    <p class="routs__type">Этот маршрут доступен для набора групп.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn">
+                            <a class="btn rout-btn" title="Запись на Чусовую" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Программа на 3 дня</h5>
+                            <div class="rout-day">
+                                
+                                <div class="program-day__title">
+                                    Первый день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:30</span>Встреча на реке</li>
+                                        <li><span>10:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Начало сплава</li>
+                                        <li><span>13:00</span>Обед (суп + второе)</li>
+                                        <li><span>14:00</span>Выход на реку</li>
+                                        <li><span>18:00</span>Ужин (горячее)</li>
+                                        <li><span>19:00</span>Развлекательная программа. Ночь в палатках</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Второй день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:30</span>Встреча на реке</li>
+                                        <li><span>10:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Выход на реку</li>
+                                        <li><span>13:00</span>Обед (горячее суп + второе)</li>
+                                        <li><span>14:00</span>Выход на реку</li>
+                                        <li><span>18:00</span>Ужин (горячее)</li>
+                                        <li><span>19:00</span>Развлекательная программа</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Третий день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:30</span>Встреча на реке</li>
+                                        <li><span>10:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Продолжение сплава</li>
+                                        <li><span>15:00</span>Обед (горячее суп + второе)</li>
+                                        <li><span>17:40</span>Отъезд домой</li>
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn none">
+                        <a class="btn rout-btn" title="Запись на Чусовую" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="river3">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Река Серьга</h3>
+                            <img src="img/river3big.jpg" alt="Река Серьга">
+                            <div class="details__description">
+                                Река Серга – одна из самых популярных у туристов рек Урала, как ее зовут «мини-Чусовая» с интересной историей и удивительной природой. Река протекает по территории национального парка-заповедника «Оленьи Ручьи». По берегам возвышаются скалы и карстовые провалы (наиболее известные: скала «Карстовый мост», скала «Лягушка»). Недалеко от реки расположена пещера Дружба и Большой провал. Проплывая мимо скалы, можно увидеть ангела.
+                                <div class="routs">
+                                    <div class="routs-title">
+                                        Доступны маршруты:
+                                    </div>
+                                    <div class="routs__one">
+                                        ЕКБ(100) г. Нижние Серги до д. Аракаево (50 км) – 3 дня
+                                    </div>
+                                    <div class="routs__two">
+                                        г. Нижние Серги – Подвесной мост - (25 км)- 2 дня
+                                    </div>
+                                    <p class="routs__type">График заездов: сборные группы.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn">
+                            <a class="btn rout-btn" title="Запись на Серьгу" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Программа на 2 дня</h5>
+                            <div class="rout-day">
+                                
+                                <div class="program-day__title">
+                                    Первый день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:00</span>Встреча в Нижних Сергах</li>
+                                        <li><span>10:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Инструктаж</li>
+                                        <li><span>11:00</span>Начало сплава</li>
+                                        <li><span>14:00</span>Плывем до пещеры Кадниковская</li>
+                                        <li><span>14:30</span>Привал на обед</li>
+                                        <li><span>15:30</span>Продолжение сплава</li>
+                                        <li><span>18:00</span>Карстовый мост</li>
+                                        <li><span>18:30</span>Ужин</li>
+                                        <li><span>21:00</span>Баня</li>
+                                        <li><span>22:00</span>Конкурсы. Ночь в палатках</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Второй день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                    
+                                        <li><span>09:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Продолжение сплава</li>
+                                        <li><span>14:00</span>Подвесной мост, обед.</li>
+                                        <li><span>16:00</span>Экскурсия по заповеднику «Оленьи Ручьи»</li>
+                                        <li><span>18:00</span>Отъезд домой</li>
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    <div class="tab-route-btn none">
+                        <a class="btn rout-btn" title="Запись на Серьгу" data-remodal-target="formCall">Записаться в группу</a>
+                    </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="river4">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Река Усьва</h3>
+                            <img src="img/river4big.jpg" alt="Усьва">
+                            <div class="details__description">
+                                Усьва – река в Пермском крае, правый приток реки Чусовой.<br>
+
+Живописный сплав по реке Усьва начинается в одноименном поселке, в котором расположены заброшенные шахты и рудники. В середине ХХ века в этом районе активно добывали железные руды и магнитный железняк. <br>В окрестностях поселка Шумихинский, в густом северном лесу, стоит каменный город (образован сотни миллионов лет назад). Высеченный в скале, он сохранил великую историю древнего моря.<br>
+
+На языке коми-пермяков «усьва» -это падающая с шумом вода. По течению реки встречаются пороги и перекаты. А с языка манси «усьва» - узкая река, т.к. она прорезает отвесные скалы и огибает их. Самые известные скалы на берегу реки – Усьвинские столбы, Чертов Палец – возвышаются на 120 метров. С них открывается захватывающий вид на окрестности и реку.<br>
+
+Вокруг – нетронутые пейзажи природы, зеркальная гладь воды и чистейший воздух. Ближайшие населенные пункты очень малолюдны.
+                                <div class="routs">
+                                    <div class="routs-title">
+                                        Доступны маршруты:
+                                    </div>
+                                    <div class="routs__one">
+                                        ЕКБ(383) – п. Усьва – п. Мыс – 3 дня
+                                    </div>
+                                    <div class="routs__two">
+                                        п. Усьва – п. Бобровка – 5 дней (с посещением каменного города).
+                                    </div>
+                                    <!-- <p class="routs__type">Этот маршрут доступен для набора группой.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn">
+                            <a class="btn rout-btn" title="Запись на Усьву" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Программа на 3 дня</h5>
+                            <div class="rout-day">
+                                
+                                <div class="program-day__title">
+                                    Первый день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:00</span>Встреча в п. Усьва</li>
+                                        <li><span>09:30</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:00</span>Инструктаж</li>
+                                        <li><span>10:30</span>Начало сплава</li>
+                                        <li><span>11:30</span>Плывем до Столбов</li>
+                                        <li><span>12:00</span>Обед</li>
+                                        <li><span>14:00</span>Продолжение сплава</li>
+                                        <li><span>17:00</span>Ужин</li>
+                                        <li><span>18:00</span>Баня, конкурсы, ночь в палатках</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Второй день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Продолжение сплава</li>
+                                        <li><span>13:00</span>Обед (горячее суп + второе)</li>
+                                        <li><span>15:00</span>Продолжение сплава</li>
+                                        <li><span>18:00</span>Ужин, конкурсы, ночь в палатках</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Третий день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        
+                                        <li><span>09:30</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Продолжение сплава</li>
+                                        <li><span>16:00</span>Обед</li>
+                                        <li><span>18:00</span>Отъезд домой</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="tab-route-btn none">
+                        <a class="btn rout-btn" title="Запись на Усьву" data-remodal-target="formCall">Записаться в группу</a>
+                    </div>
+                    </div>
+                </div> 
+            </div>
+                <div id="river5">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Река Большая сатка</h3>
+                            <img src="img/river5big.jpg" alt="Большая сатка">
+                            <div class="details__description">
+                                Река протекает по живописным местам Южного Урала, на берегах реки были найдены стоянки древнего человека. Местность и сейчас привлекает внимание исследователей и археологов. Река в верховьях течет мимо хвойных, ивовых и черемуховых зарослей. Затем, река резко разворачивается и течет на запад, огибая хребет. Берега обрастают скалами и обрывами, но через пару километров сменяется равнинной местностью.<p>
+                                На реке построены две платины. Одна из них «Пороги» - излюбленное место туристов, сюда приезжают полюбоваться на старейшие гидросооружения, построенное еще в 1910 г.<p>
+                                Большая Сатка впадает в реку Ай на границе Челябинской области и Башкирии.<p>
+                                Характер сплава – очень спокойный. Бурных порогов нет. Вода чистая и пригодна для питья после кипячения.
+                                <div class="routs">
+                                    <div class="routs-title">
+                                        Доступны маршруты:
+                                    </div>
+                                    <div class="routs__one">
+                                        ЕКБ (315) – Бердяуш – Пороги
+
+                                    </div>
+                                    <div class="routs__two">
+                                        Посещение гидроэлектростанции - по желанию
+                                    </div><p>
+                                    <div class="routs-title">
+                                        График заездов:
+                                    </div>
+                                    <p>По выходным с мая по август, по набору групп необходимо уточнять! Либо по заявкам от 12 человек в любые даты.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn">
+                            <a class="btn rout-btn" title="Запись на Большую сатку" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Программа на 2 дня</h5>
+                            <div class="rout-day">
+                                
+                                <div class="program-day__title">
+                                    Первый день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>10:00</span>Заезд на тур базу "Пороги"</li>
+                                        <li><span>10:30</span>Завтрак (чай, перекус)</li>
+                                        <li><span>11:30</span>Начало сплава</li>
+                                        <li><span>15:00</span>Остановка на хуторе Ботева и знакомство с пасекой </li>
+                                        <li><span>16:00</span>Обед на костре, чаепитие с дегустацией меда и медовых напитков. Возможность приобрести качественный мед на пасеке</li>
+                                        <li><span>19:00</span>Ужин, баня и конкурсы</li>
+                                        <li><span>21:00</span>Развлекательная программа, ночевка в палатке</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Второй день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:30</span>Подъем, разминка</li>
+                                        <li><span>10:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Выход на реку</li>
+                                        <li><span>15:00</span>Экскурсия на Порожскую ГЭС</li>
+                                        <li><span>16:00</span>Обед на костре</li>
+                                        <li><span>18:00</span>Отъезд домой</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    <div class="tab-route-btn none">
+                        <a class="btn rout-btn" title="Запись на Большую сатку" data-remodal-target="formCall">Записаться в группу</a>
+                    </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="river6">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Река Ай</h3>
+                            <img src="img/river6big.jpg" alt="Ай">
+                            <div class="details__description">
+                                Основные достопримечательности: пещера, Кургазак, сухие водопады, малые и большие притесы. Сикияз-Тамакский пещерный комплекс.
+                                <p>
+                                Река Ай богата на достопримечательности, излюбленный маршрут среди туристов-водников Урала. Длина реки Ай – 549 км.
+                                <p>
+                                Большая часть протекает по территории Челябинской области и Башкирии. По берегам реки много скал и пещер, каменных гротов и небольших перекатов. На большинстве скал можно найти рисунки животных и людей.
+                                <p>
+                                Название реки переводится с башкирского как «лунная», «светлая» или «красивая». Река вполне оправдывает такое поэтическое название. В ХIX веке по реке сплавляли руду.
+                                <p>
+                                Множество пещер, скал, карстовых провалов и богатая история освоения - делают сплав по реке Ай увлекательным путешествием для всей семьи.
+                                <div class="routs">
+                                    <div class="routs-title">
+                                        Доступны маршруты:
+                                    </div>
+                                    <div class="routs__one">
+                                        ЕКБ 338 – п. Межевой (новая пристань) до д. Лаклы на 2 дня – 37 км
+                                    </div><p>
+                                  <div class="routs-title">
+                                        График заездов:
+                                    </div>
+                                    <p>По выходным с мая по август. По набору групп необходимо уточнить.<br>
+
+                                    Либо по заявкам от 12 человек в любые даты.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn">
+                            <a class="btn rout-btn" title="Запись на Ай" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Программа на 2 дня</h5>
+                            <div class="rout-day">
+                                
+                                <div class="program-day__title">
+                                    Первый день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:00</span>Встреча в п. Межевой</li>
+                                        <li><span>09:30</span>Чаепитие с пирогами</li>
+                                        <li><span>09:45</span>Инструктаж</li>
+                                        <li><span>10:30</span>Начало сплава</li>
+                                        <li><span>13:00</span>Сплав до пещеры Кургазак. Смотровая экскурсия по пещере.</li>
+                                        <li><span>14:00</span>Привал на обед</li>
+                                        <li><span>15:00</span>Продолжение сплава</li>
+                                        <li><span>17:00</span>Остановка у Больших Притесов</li>
+                                        <li><span>18:00</span>Продолжение сплава</li>
+                                        <li><span>19:00</span>Ужин у костра</li>
+                                        <li><span>22:00</span>Банька походная. Конкурсы. Ночь в палатках на берегу Ай</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Второй день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Продолжение сплава</li>
+                                        <li><span>12:00</span>Экскурсия в Сикияз-Тамакский пещерный комплекс</li>
+                                        <li><span>13:00</span>Продолжение сплава до айского фонтана</li>
+                                        <li><span>14:00</span>Привал на обед</li>
+                                        <li><span>15:00</span>Сплав до д. Лаклы. Отъезд домой.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    <div class="tab-route-btn none">
+                        <a class="btn rout-btn" title="Запись на Ай" data-remodal-target="formCall">Записаться в группу</a>
+                    </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="river7">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Река Нейва</h3>
+                            <img src="img/river7big.jpg" alt="Нейва">
+                            <div class="details__description">
+                                Река Нейва, начинаясь около славящегося своими святыми источниками с.Тарасково, течет 294 км по Свердловской области и, сливаясь с рекой Реж, образует реку Ницу. Нейва интересна расположенными близ берегов самоцветными копями, скалами и древними рисунками-писаницами.
+
+                                Проплывая мимо старинных сел и деревень, можно почувствовать себя в царских временах деревянных домиков вдоль реки, каменных храмов.
+                                <div class="routs">
+                                    <div class="routs-title">
+                                        Доступны маршруты:
+                                    </div>
+                                    <div class="routs__one">
+                                        ЕКБ(133) п.Нейва – Шайтанский - 2-3 дня
+                                        <br>г.Алапаевск – протяженность 50 км
+                                    </div>
+                                    <div class="routs__two">
+                                        Лучшее время для сплава – май.
+                                    </div>
+                                    <p>
+                                    <div class="routs-title">
+                                        График заездов:
+                                    </div>
+                                    <p>По выходным с мая по август.
+                                    <br>
+                                    По набору групп необходимо уточнять.
+                                    <br>
+                                    По заявкам от 12 человек – в любые даты.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn">
+                            <a class="btn rout-btn" title="Запись на Нейву" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Программа на 3 дня</h5>
+                            <div class="rout-day">
+                                
+                                <div class="program-day__title">
+                                    Первый день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:30</span>Встреча на реке</li>
+                                        <li><span>10:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Выход на реку</li>
+                                        <li><span>13:00</span>Обед (горячее суп + второе)</li>
+                                        <li><span>14:00</span>Выход на реку</li>
+                                        <li><span>18:00</span>Ужин (горячее)</li>
+                                        <li><span>19:00</span>Развлекательная программа</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Второй день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:30</span>Встреча на реке</li>
+                                        <li><span>10:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Выход на реку</li>
+                                        <li><span>13:00</span>Обед (горячее суп + второе)</li>
+                                        <li><span>14:00</span>Выход на реку</li>
+                                        <li><span>18:00</span>Ужин (горячее)</li>
+                                        <li><span>19:00</span>Развлекательная программа</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Третий день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:30</span>Встреча на реке</li>
+                                        <li><span>10:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Выход на реку</li>
+                                        <li><span>13:00</span>Обед (горячее суп + второе)</li>
+                                        <li><span>14:00</span>Выход на реку</li>
+                                        <li><span>18:00</span>Ужин (горячее)</li>
+                                        <li><span>19:00</span>Развлекательная программа</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="tab-route-btn none">
+                        <a class="btn rout-btn" title="Запись на Нейву" data-remodal-target="formCall">Записаться в группу</a>
+                    </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="river8">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Река Юрузань</h3>
+                            <img src="img/river8big.jpg" alt="Юрузань">
+                            <div class="details__description">
+                                Река Юрюзань – левый приток реки Уфа. Протекает по Башкирии и Челябинской области.<p>
+
+                                На каждом участке маршрута открываются великолепные виды, множество живописных скал и пещер. Наиболее известная и посещаемая – пещера Дворец – рядом с деревней Идрисово (там же находится пещера Голубиная).<p>
+
+                                Берега реки живописны и отличаются разнообразием. Скалы и утесы с обилием пещер чередуются с густыми лесами(преимущественно хвойными) и лугами.<p>
+
+                                Юрюзань – самая быстрая и самая высокогорная река Челябинской области.
+                                <div class="routs">
+                                    <div class="routs-title">
+                                        Доступны маршруты:
+                                    </div>
+                                    <div class="routs__one">
+                                        ЕКБ(387) – г. Усть-Катав – п. Каратавлы (60 км)
+                                    </div>
+                                    <div class="routs__two">
+                                        г. Усть-Катав – Идрисово – н. Каратавлы
+                                    </div>
+                                    <p>
+                                    <div class="routs-title">
+                                        График заездов:
+                                    </div>
+                                    <p>По выходным с мая по август.
+                                    <br>
+                                    По набору групп необходимо уточнять!
+                                    <br>
+                                    По заявкам от 12 человек – в любые даты.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn">
+                            <a class="btn rout-btn" title="Запись на Юрузань" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Программа на 3 дня</h5>
+                            <div class="rout-day">
+                                
+                                <div class="program-day__title">
+                                    Первый день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:00</span>Встреча в г. Усть-Катав</li>
+                                        <li><span>09:30</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:00</span>Инструктаж</li>
+                                        <li><span>10:30</span>Начало сплава</li>
+                                        <li><span>12:00</span>Обед</li>
+                                        <li><span>14:00</span>Продолжение сплава</li>
+                                        <li><span>17:00</span>Ужин</li>
+                                        <li><span>18:00</span>Баня,
+                                        конкурсы, ночь в палатках</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Второй день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:00</span>Завтрак</li>
+                                        <li><span>10:30</span>Завтрак (чай, перекус)</li>
+                                        <li><span>13:00</span>Обед</li>
+                                        <li><span>15:00</span>Продолжение сплава</li>
+                                        <li><span>18:00</span>Ужин, баня, конкурсы, ночь в палатках</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Третий день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:30</span>Завтрак</li>
+                                        <li><span>10:30</span>Продолжение сплава</li>
+                                        <li><span>16:00</span>Обед</li>
+                                        <li><span>18:00</span>Отъезд домой из н. Наратавлы</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="tab-route-btn none">
+                        <a class="btn rout-btn" title="Запись на Юрузань" data-remodal-target="formCall">Записаться в группу</a>
+                    </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="river9">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Река Исеть</h3>
+                            <img src="img/river9big.jpg" alt="Исеть">
+                            <div class="details__description">
+                                Сплав по реке Исеть – живописный маршрут. Вдоль реки тянется хвойный лес и нависают скалы. Грохот порога Ревун слышен за несколько километров, с каждым метром нарастает и пугает своей мощью. Смоленская пещера хранит тайны монахов-отшельников. 
+                                <div class="routs">
+                                    <div class="routs-title">
+                                        Доступны маршруты:
+                                    </div>
+                                    <div class="routs__one">
+                                        ЕКБ(54) – д. Черноусово - Каменск-Уральский 31 км, 2 дня
+                                        <p>
+                                        С посещением Смоленской пещеры
+                                    </div>
+                                    <p>
+                                    <div class="routs-title">
+                                        График заездов:
+                                    </div>
+                                    <p>По выходным с мая по август.
+                                    <br>
+                                    По набору групп необходимо уточнять!
+                                    <br>
+                                    По заявкам от 12 человек – в любые даты.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn">
+                            <a class="btn rout-btn" title="Запись на Исеть" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Программа на 2 дня</h5>
+                            <div class="rout-day">
+                                
+                                <div class="program-day__title">
+                                    Первый день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:30</span>Выезд из Екатеринбурга</li>
+                                        <li><span>10:00</span>Перекус</li>
+                                        <li><span>11:30</span>Начало сплава</li>
+                                        <li><span>13:00</span>Обед (горячее суп + второе)</li>
+                                        <li><span>14:00</span>Продолжение сплава</li>
+                                        <li><span>18:00</span>Ужин (горячее)</li>
+                                        <li><span>19:00</span>Развлекательная программа
+                                        Ночь в палатках</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Второй день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:30</span>Встреча на реке</li>
+                                        <li><span>10:00</span>Завтрак (чай, перекус)</li>
+                                        <li><span>10:30</span>Продолжение сплава</li>
+                                        <li><span>15:00</span>Обед (горячее суп + второе)</li>
+                                        <li><span>17:40</span>Отъезд домой</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    <div class="tab-route-btn none">
+                        <a class="btn rout-btn" title="Запись на Исеть" data-remodal-target="formCall">Записаться в группу</a>
+                    </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="river10">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Река Зилим</h3>
+                            <img src="img/river10big.jpg" alt="Река Зилим">
+                            <div class="details__description">
+                                На берегах реки достаточно много достопримечательностей: отвесные скалы Мамбет, пещеры, белые скалы (Зилимская гряда) и др. Берега реки каменные, покрыты невысокой травой, а чуть дальше начинается хвойный лес. Наиболее значимая достопримечательность – «плачущие скалы» - каменная стенка, по которой стекает вода, в солнечную погоду напоминает водопад на Инзере.
+                                <div class="routs">
+                                    <div class="routs-title">
+                                        Доступны маршруты:
+                                    </div>
+                                    <div class="routs__one">
+                                        ЕКБ (719) д Толпарево – Ташастов (55км)
+                                    </div>
+                                    <p>
+                                    <div class="routs-title">
+                                        График заездов:
+                                    </div>
+                                    <p>По выходным с мая по август.
+                                    <br>
+                                    По набору групп необходимо уточнять!
+                                    <br>
+                                    По заявкам от 20 человек – в любые даты.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn">
+                            <a class="btn rout-btn" title="Запись на Зилим" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Программа на 3 дня</h5>
+                            <div class="rout-day">
+                                
+                                <div class="program-day__title">
+                                    Первый день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:00</span>Встреча в д. Бакеево</li>
+                                        <li><span>09:30</span>Чай с бутербродами</li>
+                                        <li><span>10:00</span>Инструктаж</li>
+                                        <li><span>10:30</span>Начало сплава</li>
+                                        <li><span>13:00</span>Обед на костре</li>
+                                        <li><span>15:00</span>Продолжение сплава</li>
+                                        <li><span>18:00</span>Ужин</li>
+                                        <li><span>18:00</span>Баня, конкурсы, ночь в палатке</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Второй день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:00</span>Завтрак</li>
+                                        <li><span>10:30</span>Продолжение сплава</li>
+                                        <li><span>13:00</span>Обед на костре</li>
+                                        <li><span>15:00</span>Продолжение сплава</li>
+                                        <li><span>18:00</span>Ужин, баня, конкурсы, ночь в палатке</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                    Третий день
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li><span>09:30</span>Завтрак</li>
+                                        <li><span>10:30</span>Продолжение сплава</li>
+                                        <li><span>15:00</span>Обед на костре</li>
+                                        <li><span>18:00</span>Отъезд домой</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="tab-route-btn none">
+                        <a class="btn rout-btn" title="Запись на Зилим" data-remodal-target="formCall">Записаться в группу</a>
+                    </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="river11">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Корпоративное мероприятие</h3>
+                            <img src="img/river11big.jpg" alt="Корпоративная программа">
+                            <div class="details__description">
+                                Мы предлагаем интересное корпоративное мероприятие на открытом воздухе, вблизи существующих водоемов Екатеринбурга и области.<p>
+
+                                Мы проводим различные мероприятия с 2009 года. Мы проведем для Вас «мини сплав» на озере с веревочным курсом и командобразованием.<p>
+
+                                Продолжительность: 1 день (10-17:00).
+                                <div class="routs">
+                                    <div class="routs-title">
+                                        Стоимость мероприятия:
+                                    </div>
+                                    <div class="routs__one">
+                                        Оплачивается только аренда катамаранов (<a href="http://katamaran-ural.ru/main/price/" alt="аренда катамаранов" >прайс проката</a>).
+                                        Посадка: 6 человек на катамаран.
+                                    </div>
+                                    <div class="routs__two">
+                                        Перекус, чай, снаряжение, вода, перчатки, сборка входят в стоимость.
+                                    </div>
+                                    <p class="routs__type">Минимальная сумма заказа: 10000 рублей или 15 человек (максимально: 200 человек).</p>
+                                    Дополнительно оплачивается: трансфер для участников.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn">
+                            <a class="btn rout-btn" title="Корпоративная программа" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Программа</h5>
+                            <div class="rout-day">
+                                <div class="program-day__title">
+                                   На один день
+                                </div>
+                                
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li>1) Встреча и приветствие</li>
+                                        <li>2) Перекус</li>
+                                        <li>3) Вводный инструктаж</li>
+                                        <li>4) Разминка (игра в присядку, совместные физ. упражнения)</li>
+                                        <li>5) Инструктаж по гребле на катамаране и техника безопасности</li>
+                                        <li>6) Деление на экипажи и выбор капитана</li>
+                                        <li>7) Выполнение задания на сплочение команды</li>
+                                        <li>8) Выдача снаряжения: весла, жилеты, каски, перчатки, перекус и воду</li>
+                                        <li>9) Заплыв на катамаране поперек озера или вдоль реки</li>
+                                        <li>10) Приветствие первых сплавщиков</li>
+                                        <li>12) Заключительное чаепитие и подведение итогов</li>
+                                        <li>13) Фото и отъезд по домам</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    <div class="tab-route-btn none">
+                        <a class="btn rout-btn" title="Корпоративная программа" data-remodal-target="formCall">Записаться в группу</a>
+                    </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="river12">
+                <div class="row">
+                    <div class="col-md-8 offset-lg-1 col-lg-7">
+                        <div class="tab-route__details">
+                            <h3>Сборные группы</h3>
+                            <img src="img/river12big.jpg" alt="Сборные группы">
+                            <div class="details__description">
+                                Вы можете присоединиться к сборной группе на реки: Реж, Серьга, Чусовая, Усьва. Минимальное количество человек для проведение сплава: 12 человек.
+
+                                Маршруты рассчитаны на 2-3 дня (выезд в пятницу вечером или в субботу рано утром, возвращение в воскресенье вечером или в понедельник рано утром).
+
+                                В сборной группе большинство участников сплава незнакомы, наши инструкторы проводят командобразующие игры на сплочение команд и вам не будет скучно на сплаве!
+                                <div class="routs">
+                                    
+                                    <div class="routs__one">
+                                        Меню обговаривается отдельно со всеми участниками и учитываются индивидуальные пожелания.
+
+                                        Посещение национальных парков, заповедников, музеев является добровольными и оплачивается отдельно.
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-route-btn">
+                            <a class="btn rout-btn" title="Сборные группы" data-remodal-target="formCall">Записаться в группу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rout-program">
+                            <h5>Уникальная программа</h5>
+                            <div class="rout-day">
+                                
+                                <div class="program-day__title">
+                                    В программу входит
+                                </div>
+                                <div class="program-day__list">
+                                    <ul>
+                                        <li>- Трехразовое питание на костре</li>
+                                        <li>- Перекусы с бутербродами и пирогами</li>
+                                        <li>- Полевая баня на камнях или с печкой</li>
+                                        <li>- Интерактивная развлекательная программа на местах стоянки</li>
+                                        <li>- Песни под гитару. Сборник песен обговаривается заранее</li>
+                                        <li>- Экскурсии по интересным местам сплава</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    <div class="tab-route-btn none">
+                        <a class="btn rout-btn" title="Сборные группы" data-remodal-target="formCall">Записаться в группу</a>
+                    </div>
+                    </div>
+                </div> 
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="mediagallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="paragraf-section">
+                        <h2>Медиагалерея</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 fadeInLeft wow" data-wow-offset="10">
+                    <div class="video">
+                        <div class="mediagallery-paragraf">
+                            Видео со сплавов
+                        </div>
+                        <iframe id="videoFrame" width="100%" height="352" src="https://www.youtube.com/embed/3lfAi0-poBk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                   <div class="youtube-btn">
+                        <a href="https://www.youtube.com/channel/UCdR1l8Ox4fJt9lfnsxRlA0w"><img src="img/youtube.png" alt="Наш канал на YouTube" title="Наш канал на YouTube"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 fadeInRight wow" data-wow-offset="10">
+                    <div id="gallery">
+                        <div class="mediagallery-paragraf">
+                            Фотоальбом
+                        </div>
+            
+                    <div id="galleryPhoto" class="carousel">
+                        
+
+                        <div class="carousel-item active">
+                          <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto1"><img class="d-block " src="img/slide1.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto2"><img class="d-block " src="img/slide2.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto3"><img class="d-block " src="img/slide3.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto4"><img class="d-block " src="img/slide4.jpg" alt=""></button>
+                          </div>
+                        </div>
+
+                        <div class="carousel-item">
+                         <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto5"><img class="d-block " src="img/slide5.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto6"><img class="d-block " src="img/slide6.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto7"><img class="d-block " src="img/slide7.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto8"><img class="d-block " src="img/slide8.jpg" alt=""></button>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto9"><img class="d-block " src="img/slide9.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto10"><img class="d-block " src="img/slide10.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto11"><img class="d-block " src="img/slide11.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto12"><img class="d-block " src="img/slide12.jpg" alt=""></button>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                         <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto13"><img class="d-block " src="img/slide13.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto14"><img class="d-block " src="img/slide14.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto15"><img class="d-block " src="img/slide15.jpg" alt=""></button>
+                          </div>
+                           <div class="wrapp">
+                              <button type="button" data-toggle="modal" data-target="#modalPhoto16"><img class="d-block " src="img/slide16.jpg" alt=""></button>
+                          </div>
+                        </div>
+                      
+                      
+                      
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="nextFromGallery fadeInUpBig wow" data-wow-offset="10">
+                        Станьте частью большой семьи<br>
+                        и окунитесь в атмосферу приключений!
+                        <a href="#timeTable" class="go_to nextFromGallery__btn">
+                            <img src="img/down.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeTable">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="paragraf-section">
+                        <h2>Расписание</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="timeTable-content">
+                        <div class="time__description fadeInLeft wow" data-wow-offset="10">
+                            Ближайшие
+                            сплавы
+                        </div>
+                        <div class="timeTable__table">
+                            <div class="table__item fadeInRight wow" data-wow-offset="10">
+                                <div class="table__day">
+                                    19
+                                </div>
+                                <div class="table__month">
+                                    Мая
+                                </div>
+                                <div class="time__river">
+                                    Река Реж
+                                </div>
+                            </div>
+                            <div class="table__item fadeInRight wow" data-wow-offset="10">
+                                <div class="table__day">
+                                    26
+                                </div>
+                                <div class="table__month">
+                                    Мая
+                                </div>
+                                <div class="time__river">
+                                    Река Серьга
+                                </div>
+                            </div>
+                            <div class="table__item fadeInRight wow" data-wow-offset="10">
+                                <div class="table__day">
+                                    02
+                                </div>
+                                <div class="table__month">
+                                    Июня
+                                </div>
+                                <div class="time__river">
+                                    Река Чусовая
+                                </div>
+                            </div>
+                            <div class="table__item fadeInRight wow" data-wow-offset="10">
+                                <div class="table__day">
+                                    09
+                                </div>
+                                <div class="table__month">
+                                    Июня
+                                </div>
+                                <div class="time__river">
+                                    Река Реж
+                                </div>
+                            </div>
+                            <div class="table__item fadeInRight wow" data-wow-offset="10">
+                                <div class="table__day">
+                                    16
+                                </div>
+                                <div class="table__month">
+                                    Июня
+                                </div>
+                                <div class="time__river">
+                                    Река Усьва
+                                </div>
+                            </div>
+                            <div class="table__item fadeInRight wow" data-wow-offset="10">
+                                <div class="table__day">
+                                    23
+                                </div>
+                                <div class="table__month">
+                                    Июня
+                                </div>
+                                <div class="time__river">
+                                    Река Серьга
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="box-shadow">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="paragraf-section">
+                        <h2>Как стать участником сплава</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="join__img fadeInLeft wow" data-wow-offset="10">
+                        <img src="img/member.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="join__plan">
+                        <div class="plan__item plan-item--first">
+                            <div class="item__text">
+                                Оставьте заявку на сайте или позвоните нам самостоятельно
+                            </div>
+                            <div class="item__num">
+                                01.
+                            </div>
+                        </div>
+                        <div class="plan__item">
+                            <div class="item__text">
+                                С вами свяжется наш специалист и ответит на все вопросы
+                            </div>
+                            <div class="item__num">
+                                02.
+                            </div>
+                        </div>
+                        <div class="plan__item">
+                            <div class="item__text">
+                                Получите подтверждение сплава по почте
+                            </div>
+                            <div class="item__num">
+                                03.
+                            </div>
+                        </div>
+                        <div class="plan__item">
+                            <div class="item__text">
+                                Оплачиваете сплав на карту Сбербанка или в нашем офисе
+                            </div>
+                            <div class="item__num">
+                                04.
+                            </div>
+                        </div>
+                        <div class="plan__item">
+                            <div class="item__text">
+                                Приезжайте на место сбора в назначенное время
+                            </div>
+                            <div class="item__num">
+                                05.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="join__btn text-center">
+                            <a class="btn rout-btn join-btn bounceIn wow" data-wow-offset="10" title="Заказ звонка" data-remodal-target="formCall">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cost">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="paragraf-section">
+                        <h2>Стоимость</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-md-4 col-sm-4">
+                    <div class="cost__day text-center day-one fadeInLeft wow" data-wow-offset="10">
+                        <div class="cost-day__day">
+                            На 1 день
+                        </div>
+                        <div class="cost-day__cost">
+                            1500 <img src="img/rouble.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="cost__day text-center day-two fadeInUp wow" data-wow-offset="10">
+                        <div class="cost-day__day">
+                            На 2 дня
+                        </div>
+                        <div class="cost-day__cost">
+                            2500 <img src="img/rouble.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-4 col-sm-4">
+                    <div class="cost__day text-center day-three fadeInRight wow" data-wow-offset="10">
+                        <div class="cost-day__day">
+                            На 3 дня
+                        </div>
+                        <div class="cost-day__cost">
+                            3500 <img src="img/rouble.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="cost__layer fadeInLeft wow" data-wow-offset="10">
+                        <div class="cost-title">
+                            Стоимость включает
+                        </div>
+                        <div class="cost-list">
+                            <ul>
+                                <li>Аренда катамаранов в полной комплектации</li>
+                                <li>Прокат гермомешков</li>
+                                <li>Доставка оборудования на реку</li>
+                                <li>Услуги инструктора/аниматора</li>
+                                <li>Питание (меню оговаривается отдельно)</li>
+                                <li>Аренда палаток и ковриков, кострового оборудования</li>
+                                <li>Аренда оборудования на местах стоянок</li>
+                                <li>Полевая баня</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="cost__layer pay fadeInRight wow" data-wow-offset="10">
+                        <div class="cost-title">
+                            Дополнительно оплачивается
+                        </div>
+                        <div class="cost-list">
+                            <ul>
+                                <li>Доставка на маршрут и обратно</li>
+                                <li>Аренда спальников</li>
+                                <li>Страховка</li>
+                                <li>Надувные кресла</li>
+                                <li>Оборудование катамарана под плот</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="preparation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="paragraf-section">
+                        <h2>Подготовка</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="preparation__img-block">
+                        <div class="img-block__title">
+                            Что с собой взять
+                        </div>
+                        <div class="img-block__img img-block--first fadeInLeft wow" data-wow-offset="10">
+                            <img src="img/hat.jpg" alt="">
+                        </div>
+                        <div class="img-block__img fadeInLeft wow" data-wow-offset="10">
+                            <img src="img/boots.png" alt="">
+                        </div>
+                        <div class="img-block__img fadeInLeft wow" data-wow-offset="10">
+                            <img src="img/glasses.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="preparation__text">
+                        <p>
+                        - Сменную одежду, обувь, дождевик.<br>
+                        - Обувь по погоде - 2 пары: сланцы, сандали, кроссовки, сапоги, кеды или пр.<br>
+                        <span>Необходимо исключить каблуки и неудобные колодки. Выход в воду босиком запрещен.</span>
+                        </p>
+
+                        <p>
+                        - Головные уборы, солнцезащитный крем и солнцезащитные очки.<br>
+                        - Теплые вещи (носки, свитер, штаны, перчатки, шапку).<br>
+                        - Мешки полиэтиленовые – для вещей.<br>
+                        - Спальник (если нет то можно взять в прокат).
+                        </p>
+
+                        <p>
+                        - Личную аптечку, репелленты.<br>
+                        <span>Мы обеспечиваем набор медикаментов, которые могут понадобиться. Однако, если вы принимаете определенные препараты, возьмите их с собой.</span>
+                        </p> 
+
+                        <p>
+                        - Личная посуда.<br>
+                        - Личные средства гигиены.<br>
+                        - Фонарик обычный, налобный.<br>
+                        - Фотоаппарат.
+                        </p>
+
+                        <p>
+                        <span>Туристы принимают участие в сборе-разборе катамарнов, установке палаток, сборе дров, приготовлении пищи, моют за собой личную посуду.</span>
+                        </p>
+                    </div>
+                     <div class="join__btn">
+                            <a class="btn rout-btn join-btn bounceIn wow"  data-wow-delay="2s" data-wow-offset="10" title="Кнопка из последней секции" data-remodal-target="formCall">Хочу на сплав!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12">
+                    <div class="logo">
+                    Катамаран-урал
+                    </div>
+                    <div class="social">
+                        <a href="https://www.youtube.com/channel/UCdR1l8Ox4fJt9lfnsxRlA0w" class="social__icon">
+                            <img src="img/youtube.svg" alt="">
+                        </a>
+                        <a href="https://vk.com/katamaran1" class="social__icon">
+                            <img src="img/vk.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <ul class="menu-list">
+                        <li><a class="go_to" href="#route">Маршруты</a></li>
+                        <li><a class="go_to" href="#mediagallery">Галерея</a></li>
+                        <li><a class="go_to" href="#timeTable">Расписание</a></li>
+                        <li><a class="go_to" href="#cost">Стоимость</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="contact">
+                        <div class="contact__phone">
+                            +8 (950) 196-50-05
+                        </div>
+                        <div class="contact__adress">
+                            г. Екатеринбург,<br> 
+                            ул. Первомайская 40
+                        </div>
+                        <div class="contact__mail">
+                            katamaran.ural@mail.ru
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copirate">
+        Все права защищены   ©   2018  Катамаран-Урал
+    </div>
+
+    <!-- Modal form -->
+
+        <div class="remodal" id="formCall" data-remodal-id="formCall" data-remodal-options="hashTracking: false,closeOnConfirm: false">
+            <div data-remodal-action="close" class="box-modal_close"><img src="img/close.svg" alt=""></div>
+            <div class="header-form">
+                        <form id="mainForm" autocomplete="off">
+                            <div class="form-container">
+                                <div class="formTitle"><h5>Форма для связи</h5></div>
+                                <p class="msgs text-center"></p>
+                                <fieldset class="form-fieldset">
+                                <label>
+                                    <span class="input-title">
+                                        Введите имя
+                                    </span>
+                                    <input id="form-name" name="uname" type="text" required tabindex="0" placeholder="Ваше имя">
+                                </label>
+                            </fieldset>
+                            <fieldset class="form-fieldset">
+                                <label>
+                                    <span class="input-title">
+                                        Введите телефон
+                                    </span>
+                                    <input id="form-phone" name="uphone" type="tel" tabindex="0" required pattern="^[ 0-9]+$" placeholder="Ваш телефон">
+                                </label>
+                            </fieldset>
+                            <fieldset class="form-fieldset">
+                                <label>
+                                    <span class="input-title">
+                                        Введите почтовый адресс
+                                    </span>
+                                    <input id="form-mail" type="email" name="uemail" required placeholder="Ваш email">
+                                </label>
+                            </fieldset>
+                            <input name="formInfo" class="formInfo" type="hidden" value=""/>
+                            <div class="form-fieldset text-center">
+                               <button type="submit" class="btn formBtn">Отправить</button>
+                            </div>
+                            </div>
+                        </form>
+                        <div class="form-warning">Заполняя форму, вы соглашаетесь с политикой обработки данных</div>
+                    </div>
+        </div>
+
+
+<!-- Modal photo -->
+<div class="modal fade" id="modalPhoto1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo1.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo2.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo3.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo4.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo5.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo6.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo7.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo8.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo9.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo10.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo11.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo12.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo13.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo14.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto15" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo15.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPhoto16" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt=""></button>
+        <div class="modal-content">
+            <img class="full-photo" src="img/photo16.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+    <script>if(window.screen.width < 768) {
+    $(".tabs").removeClass('slider');
+    $(".tab").removeClass('slider__item');
+     $("[data-wow-offset]").removeClass('wow');
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="modalform/libs/remodal/remodal.min.js"></script>
+<script src="modalform/js/form.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
